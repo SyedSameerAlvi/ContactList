@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.db.models.base import Model
 
 # Create your models here.
-
+# added
 
 class Contact(models.Model):
     owner = models.ForeignKey(to=User, on_delete=models.CASCADE)
